@@ -1,12 +1,12 @@
 import "./App.css";
 import React from "react";
 import ReactDOM from "react-dom/client";
-import AddToDo from "./components/AddToDO/AddToDo";
+import ToDoList from "./components/ToDoList/ToDoList";
 
 function App() {
   return (
     <div>
-      <AddToDo></AddToDo>
+      <ToDoList></ToDoList>
     </div>
   );
 }
